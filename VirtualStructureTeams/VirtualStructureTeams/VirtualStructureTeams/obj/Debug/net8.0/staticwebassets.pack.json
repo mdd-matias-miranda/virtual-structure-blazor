@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\m.miranda\\Source\\Repos\\virtual-structure-blazor\\VirtualStructureTeams\\VirtualStructureTeams\\VirtualStructureTeams\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\VirtualStructureTeams.bundle.scp.css",
+      "PackagePath": "staticwebassets\\VirtualStructureTeams.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\m.miranda\\Source\\Repos\\virtual-structure-blazor\\VirtualStructureTeams\\VirtualStructureTeams\\VirtualStructureTeams\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\m.miranda\\Source\\Repos\\virtual-structure-blazor\\VirtualStructureTeams\\VirtualStructureTeams\\VirtualStructureTeams\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\m.miranda\\Source\\Repos\\virtual-structure-blazor\\VirtualStructureTeams\\VirtualStructureTeams\\VirtualStructureTeams\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\m.miranda\\Source\\Repos\\virtual-structure-blazor\\VirtualStructureTeams\\VirtualStructureTeams\\VirtualStructureTeams\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.VirtualStructureTeams.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.VirtualStructureTeams.props",
+      "PackagePath": "build\\VirtualStructureTeams.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.VirtualStructureTeams.props",
+      "PackagePath": "buildMultiTargeting\\VirtualStructureTeams.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.VirtualStructureTeams.props",
+      "PackagePath": "buildTransitive\\VirtualStructureTeams.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

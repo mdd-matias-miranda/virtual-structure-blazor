@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\VirtualStructureTeams",
+    "\\VirtualStructureTeams\\VirtualStructureTeams",
+    "\\VirtualStructureTeams\\VirtualStructureTeams\\VirtualStructureTeams",
+    "\\VirtualStructureTeams\\VirtualStructureTeams\\VirtualStructureTeams\\Components",
+    "\\VirtualStructureTeams\\VirtualStructureTeams\\VirtualStructureTeams\\Components\\Pages"
+  ],
+  "SelectedNode": "\\VirtualStructureTeams\\VirtualStructureTeams\\VirtualStructureTeams\\Components\\Pages\\Weather.razor",
+  "PreviewInSolutionExplorer": false
+}

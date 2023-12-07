@@ -1,0 +1,69 @@
+﻿@page "/"
+@attribute [StreamRendering]
+
+@using System.Net.Http.Json
+
+<PageTitle>Weather</PageTitle>
+
+<h1>Weather</h1>
+
+<p>This component demonstrates showing data.</p>
+
+@if (forecasts == null)
+{
+    <MudProgressCircular Color="Color.Default" Indeterminate="true" />
+}
+else
+{
+     <MudTable Items="@forecasts" Hover="true" Breakpoint="Breakpoint.Sm" >
+        <HeaderContent>
+            <MudTh>File type</MudTh>
+            <MudTh>Name</MudTh>
+            <MudTh>User</MudTh>
+            <MudTh>Last Modification</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd DataLabel="File type">
+                <MudIcon Icon="@fileTypes[context.FileType]" />
+            </MudTd>
+                <MudTd DataLabel="Name">@context.Name</MudTd>
+                <MudTd DataLabel="User">@context.User</MudTd>
+                <MudTd DataLabel="Last Modification">@context.Date</MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+        </MudTable>
+}
+@code {
+
+    private WeatherForecast[]? forecasts;
+
+    private string[] fileTypes = { Icons.Custom.FileFormats.FileWord, Icons.Custom.FileFormats.FilePdf, Icons.Custom.FileFormats.FileExcel, Icons.Material.Filled.TableView };
+    protected override async Task OnInitializedAsync()
+    {
+        // Simulate asynchronous loading to demonstrate streaming rendering
+        await Task.Delay(500);
+
+        var startDate = DateOnly.FromDateTime(DateTime.Now);
+        var users = new[] { "j.something", "a.else", "b.nothing", "c.smith", "d.two", "e.lse"};
+        var names = new[]{"lorem", "ipsum", "dolor", "sit", "amet", "consectetuer",
+        "adipiscing", "elit", "sed", "diam", "nonummy", "nibh", "euismod",
+        "tincidunt", "ut", "laoreet", "dolore", "magna", "aliquam", "erat"};
+        forecasts = Enumerable.Range(1, 15).Select(index => new WeatherForecast
+            {
+                FileType = Random.Shared.Next(3),
+                Name = names[Random.Shared.Next(names.Length)],
+                Date = startDate.AddDays(index),
+                User = users[Random.Shared.Next(users.Length)]
+            }).ToArray();
+    }
+
+    private class WeatherForecast
+    {
+        public int FileType { get; set; }
+        public string? Name { get; set; }
+        public string? User { get; set; }
+        public DateOnly Date { get; set; }
+    }
+}
