@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\m.miranda\\source\\repos\\virtual-structure-blazor\\VSBlazor\\VSBlazor.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\m.miranda\\source\\repos\\virtual-structure-blazor\\VSBlazor\\VSBlazor.Client\\obj\\Debug\\net8.0\\compressed\\x7ppnf0cq6.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\m.miranda\\source\\repos\\virtual-structure-blazor\\VSBlazor\\VSBlazor.Client\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "C:\\Users\\m.miranda\\source\\repos\\virtual-structure-blazor\\VSBlazor\\VSBlazor.Client\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.VSBlazor.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.VSBlazor.Client.props",
+      "PackagePath": "build\\VSBlazor.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.VSBlazor.Client.props",
+      "PackagePath": "buildMultiTargeting\\VSBlazor.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.VSBlazor.Client.props",
+      "PackagePath": "buildTransitive\\VSBlazor.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
